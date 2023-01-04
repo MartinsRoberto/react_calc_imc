@@ -1,0 +1,20 @@
+button{
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.calc{
+  background-color: #198754;
+}
+.calc:hover{
+  background-color: #479f76;
+}
+.clear{
+  background-color: #b02a37;
+}
+.clear:hover{
+  background-color: #dc3545;
+}
