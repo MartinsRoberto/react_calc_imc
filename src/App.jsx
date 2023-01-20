@@ -12,6 +12,8 @@ function App() {
   const [infoClass, setInfoClass] = useState("");
 
   const calcImc = (e, height, weight) => {
+    if(height == '' || weight == '') return
+    
     e.preventDefault()
     const h = Number(height)/100
     const w = Number(weight)
@@ -38,7 +40,6 @@ function App() {
   return (
     <div className="container">
       {!imc ? (<ImcCalc calcImc={calcImc}/>) : (<ImcTable imc={imc} data={data} info={info}  infoClass={infoClass} resetCalc={resetCalc}/>)}
-      
     </div>
   )
 }
