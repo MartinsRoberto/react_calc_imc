@@ -1,9 +1,24 @@
-#imc-number, #imc-info{
-  font-size: 24px;
+.result-container{
+  border: 2px solid #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-#imc-table{
+.imc-number, .imc-info{
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+h3{
+  margin-bottom: 0.8em;
+}
+
+.imc-table{
   margin-bottom: 50px;
+}
+
+.imc-table div{
+  margin-bottom: 0.5em;
 }
 .table-header{
   display: grid;

@@ -1,4 +1,13 @@
 
+.calc-container{
+  border: 2px solid #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.calc-container h2{
+  margin-bottom: 1em;
+}
 .calc-container .form-control{
   margin-bottom: 30px;
 }
@@ -25,3 +34,7 @@
   outline: none;
 }
 
+.calc-container .actions{
+  display: flex;
+  justify-content: center;
+}

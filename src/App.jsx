@@ -12,9 +12,10 @@ function App() {
   const [infoClass, setInfoClass] = useState("");
 
   const calcImc = (e, height, weight) => {
+    e.preventDefault()
+    
     if(height == '' || weight == '') return
     
-    e.preventDefault()
     const h = Number(height)/100
     const w = Number(weight)
     
