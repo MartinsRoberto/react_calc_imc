@@ -1,0 +1,40 @@
+
+.calc-container{
+  border: 2px solid #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.calc-container h2{
+  margin-bottom: 1em;
+}
+.calc-container .form-control{
+  margin-bottom: 30px;
+}
+
+.calc-container span{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.calc-container input{
+  border: none;
+  font-size: 16px;
+  padding: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.calc-container input:focus{
+  outline: none;
+}
+
+.calc-container .actions{
+  display: flex;
+  justify-content: center;
+}

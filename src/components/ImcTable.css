@@ -1,0 +1,53 @@
+.result-container{
+  border: 2px solid #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.imc-number, .imc-info{
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+h3{
+  margin-bottom: 0.8em;
+}
+
+.imc-table{
+  margin-bottom: 50px;
+}
+
+.imc-table div{
+  margin-bottom: 0.5em;
+}
+.table-header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.table-data{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+button:hover{
+  background-color: rgb(196, 196, 196);
+}
+
+.good {
+  color: #12db34;
+}
+
+.low {
+  color: #dbce12;
+}
+
+.medium {
+  color: #db6212;
+}
+
+.high {
+  color: #db1912;
+}
