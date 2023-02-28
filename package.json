@@ -2,7 +2,7 @@
   "name": "calc_imc",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MartinsRoberto.github.io/https://github.com/MartinsRoberto/react_calc_imc",
+  "homepage": "https://github.com/MartinsRoberto/react_calc_imc",
   "type": "module",
   "scripts": {
     "dev": "vite",
