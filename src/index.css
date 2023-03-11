@@ -1,18 +1,25 @@
+
 :root {
+  --gray-0: #000;
+  --gray-2: #202124;
+  --gray-3: #303134;
+  --gray-4: #5f6368;
+  --gray-5: #e8eaed;
+  --gray-7: #fff;
+  --gap-0: .75rem;
+  --gap-1: 1.25rem;
+  --gap-2: 2.5rem;
+  --radius: 4px;
+  --font-1: 2rem;
+  --font-2: 1.5rem;
+  --font-3: 1.125rem;
+  --font-4: 1rem;
+}
+
+body{
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  background-color: var(--gray-2);
+  color: var(--gray-5);
 }
 
 *{
@@ -21,3 +28,21 @@
   margin: 0px;
 }
 
+button{
+  background-color: var(--gray-3);
+  border: 1px solid var(--gray-3);
+  border-radius: 4px;
+  color: var(--gray-5);
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover{
+  border: 1px solid var(--gray-4);
+}

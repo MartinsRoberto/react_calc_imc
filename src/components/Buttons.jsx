@@ -1,5 +1,3 @@
-import './Buttons.css'
-
 function Buttons({type, nameclass, text, action}) {
 
   const handleAction = (e) => {
